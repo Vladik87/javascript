@@ -1,0 +1,22 @@
+.sckrol{
+    max-width: 500px;
+    margin: 0 auto;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    cursor: pointer;
+}
+
+.sckrol::-webkit-scrollbar{
+    width: 6px;
+}
+.sckrol-bodi{
+    cursor: auto;
+}
+.sckrol::-webkit-scrollbar-track{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(63,94,251,1) 40%, rgba(127,77,180,1) 40%, rgba(141,73,164,1) 50%, rgba(152,70,151,1) 60%, rgba(209,55,87,1) 60%, rgba(209,55,87,1) 100%);
+}
+.sckrol::-webkit-scrollbar-thumb{
+    background: #100d0d;
+    
+}

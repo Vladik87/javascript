@@ -1,0 +1,39 @@
+.filter div{
+  display: flex;
+  flex-direction: column;
+}
+
+.filter{
+  margin-right: 10px;
+  width: 250px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.wrapper{
+  display: flex;
+  margin: 15px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+ label{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+h3{
+  font-size: medium;
+  margin-bottom: 5px;
+  font-weight: 800;
+}
